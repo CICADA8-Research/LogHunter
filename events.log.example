@@ -1,0 +1,2598 @@
+------------------
+[NEW EVENT FOUND]
+EventID: 4624
+Description: An account was successfully logged on.
+Time Generated: 2024-06-11 19:47:22
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-0-0
+SubjectUserName: -
+SubjectDomainName: -
+SubjectLogonId: 0x0
+TargetUserSid: S-1-5-21-951999864-159825705-4220214313-1103
+TargetUserName: dcom
+TargetDomainName: dcom
+TargetLogonId: 0x3477ae
+LogonType: 3
+LogonProcessName: Kerberos
+AuthenticationPackageName: Kerberos
+WorkstationName: 
+LogonGuid: 
+TransmittedServices: {E7D6B19D-3E05-8B6C-25F1-0C7C6A014EF0}
+LmPackageName: -
+KeyLength: -
+ProcessId: 0
+ProcessName: 0x0
+IpAddress: -
+IpPort: 172.16.0.4
+ImpersonationLevel: 61639
+RestrictedAdminMode: %%1833
+TargetOutboundUserName: -
+TargetOutboundDomainName: -
+VirtualAccount: -
+TargetLinkedLogonId: %%1843
+ElevatedToken: 0x0
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4672
+Description: Special privileges assigned to new logon.
+Time Generated: 2024-06-11 19:47:22
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-5-21-951999864-159825705-4220214313-1103
+SubjectUserName: dcom
+SubjectDomainName: dcom
+SubjectLogonId: 0x3477ae
+PrivilegeList: SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege
+			SeEnableDelegationPrivilege
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4624
+Description: An account was successfully logged on.
+Time Generated: 2024-06-11 19:47:22
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-0-0
+SubjectUserName: -
+SubjectDomainName: -
+SubjectLogonId: 0x0
+TargetUserSid: S-1-5-21-951999864-159825705-4220214313-1103
+TargetUserName: dcom
+TargetDomainName: dcom
+TargetLogonId: 0x34770d
+LogonType: 3
+LogonProcessName: Kerberos
+AuthenticationPackageName: Kerberos
+WorkstationName: 
+LogonGuid: 
+TransmittedServices: {E7D6B19D-3E05-8B6C-25F1-0C7C6A014EF0}
+LmPackageName: -
+KeyLength: -
+ProcessId: 0
+ProcessName: 0x0
+IpAddress: -
+IpPort: 172.16.0.4
+ImpersonationLevel: 61637
+RestrictedAdminMode: %%1833
+TargetOutboundUserName: -
+TargetOutboundDomainName: -
+VirtualAccount: -
+TargetLinkedLogonId: %%1843
+ElevatedToken: 0x0
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4672
+Description: Special privileges assigned to new logon.
+Time Generated: 2024-06-11 19:47:22
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-5-21-951999864-159825705-4220214313-1103
+SubjectUserName: dcom
+SubjectDomainName: dcom
+SubjectLogonId: 0x34770d
+PrivilegeList: SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege
+			SeEnableDelegationPrivilege
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4769
+Description: A Kerberos service ticket (TGS) was requested.
+Time Generated: 2024-06-11 19:47:22
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+TargetUserName: dcom@OFFICE.PWN
+TargetDomainName: OFFICE.PWN
+ServiceName: OFFICE.PWN
+ServiceName: DC01$
+ServiceSid: S-1-5-21-951999864-159825705-4220214313-1000
+TicketOptions: 0x40800000
+TicketEncryptionType: 0x12
+IpAddress: ::ffff:172.16.0.4
+IpPort: 61638
+Status: 0x0
+LogonGuid: {6753957F-4545-D801-355C-0DF31DB07ED9}
+TransmittedServices: -
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4624
+Description: An account was successfully logged on.
+Time Generated: 2024-06-11 19:47:22
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-0-0
+SubjectUserName: -
+SubjectDomainName: -
+SubjectLogonId: 0x0
+TargetUserSid: S-1-5-21-951999864-159825705-4220214313-1103
+TargetUserName: dcom
+TargetDomainName: dcom
+TargetLogonId: 0x347661
+LogonType: 3
+LogonProcessName: Kerberos
+AuthenticationPackageName: Kerberos
+WorkstationName: 
+LogonGuid: 
+TransmittedServices: {E7D6B19D-3E05-8B6C-25F1-0C7C6A014EF0}
+LmPackageName: -
+KeyLength: -
+ProcessId: 0
+ProcessName: 0x0
+IpAddress: -
+IpPort: 172.16.0.4
+ImpersonationLevel: 61633
+RestrictedAdminMode: %%1833
+TargetOutboundUserName: -
+TargetOutboundDomainName: -
+VirtualAccount: -
+TargetLinkedLogonId: %%1843
+ElevatedToken: 0x0
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4672
+Description: Special privileges assigned to new logon.
+Time Generated: 2024-06-11 19:47:22
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-5-21-951999864-159825705-4220214313-1103
+SubjectUserName: dcom
+SubjectDomainName: dcom
+SubjectLogonId: 0x347661
+PrivilegeList: SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege
+			SeEnableDelegationPrivilege
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4769
+Description: A Kerberos service ticket (TGS) was requested.
+Time Generated: 2024-06-11 19:47:22
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+TargetUserName: dcom@OFFICE.PWN
+TargetDomainName: OFFICE.PWN
+ServiceName: OFFICE.PWN
+ServiceName: DC01$
+ServiceSid: S-1-5-21-951999864-159825705-4220214313-1000
+TicketOptions: 0x40810000
+TicketEncryptionType: 0x12
+IpAddress: ::ffff:172.16.0.4
+IpPort: 61636
+Status: 0x0
+LogonGuid: {6753957F-4545-D801-355C-0DF31DB07ED9}
+TransmittedServices: -
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4768
+Description: A Kerberos authentication ticket (TGT) was requested.
+Time Generated: 2024-06-11 19:47:22
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+TargetUserName: dcom
+TargetDomainName: dcom
+TargetSid: OFFICE.PWN
+ServiceName: krbtgt
+ServiceSid: krbtgt
+TicketOptions: S-1-5-21-951999864-159825705-4220214313-502
+Status: 0x40810010
+TicketEncryptionType: 0x0
+PreAuthType: 0x12
+IpAddress: 2
+IpPort: ::ffff:172.16.0.4
+CertIssuerName: 61635
+CertSerialNumber: 
+CertThumbprint: 
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4768
+Description: A Kerberos authentication ticket (TGT) was requested.
+Time Generated: 2024-06-11 19:47:22
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+TargetUserName: dcom
+TargetDomainName: dcom
+TargetSid: OFFICE.PWN
+ServiceName: krbtgt
+ServiceSid: krbtgt
+TicketOptions: S-1-5-21-951999864-159825705-4220214313-502
+Status: 0x40810010
+TicketEncryptionType: 0x0
+PreAuthType: 0x12
+IpAddress: 2
+IpPort: ::ffff:172.16.0.4
+CertIssuerName: 61632
+CertSerialNumber: 
+CertThumbprint: 
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4769
+Description: A Kerberos service ticket (TGS) was requested.
+Time Generated: 2024-06-11 19:47:21
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+TargetUserName: dcom@OFFICE.PWN
+TargetDomainName: OFFICE.PWN
+ServiceName: OFFICE.PWN
+ServiceName: WIN11$
+ServiceSid: S-1-5-21-951999864-159825705-4220214313-1105
+TicketOptions: 0x40810000
+TicketEncryptionType: 0x12
+IpAddress: ::ffff:172.16.0.4
+IpPort: 61627
+Status: 0x0
+LogonGuid: {38BE4ECF-E535-6E32-4EB0-EE9669864283}
+TransmittedServices: -
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4768
+Description: A Kerberos authentication ticket (TGT) was requested.
+Time Generated: 2024-06-11 19:47:21
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+TargetUserName: dcom
+TargetDomainName: dcom
+TargetSid: OFFICE
+ServiceName: krbtgt
+ServiceSid: krbtgt
+TicketOptions: S-1-5-21-951999864-159825705-4220214313-502
+Status: 0x40810010
+TicketEncryptionType: 0x0
+PreAuthType: 0x12
+IpAddress: 2
+IpPort: ::ffff:172.16.0.4
+CertIssuerName: 61626
+CertSerialNumber: 
+CertThumbprint: 
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4624
+Description: An account was successfully logged on.
+Time Generated: 2024-06-11 19:47:09
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-0-0
+SubjectUserName: -
+SubjectDomainName: -
+SubjectLogonId: 0x0
+TargetUserSid: S-1-5-18
+TargetUserName: DC01$
+TargetDomainName: DC01$
+TargetLogonId: 0x336bdd
+LogonType: 3
+LogonProcessName: Kerberos
+AuthenticationPackageName: Kerberos
+WorkstationName: 
+LogonGuid: 
+TransmittedServices: {0392D0FD-9C5C-5098-49D9-52405435C300}
+LmPackageName: -
+KeyLength: -
+ProcessId: 0
+ProcessName: 0x0
+IpAddress: -
+IpPort: ::1
+ImpersonationLevel: 49757
+RestrictedAdminMode: %%1833
+TargetOutboundUserName: -
+TargetOutboundDomainName: -
+VirtualAccount: -
+TargetLinkedLogonId: %%1843
+ElevatedToken: 0x0
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4672
+Description: Special privileges assigned to new logon.
+Time Generated: 2024-06-11 19:47:09
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-5-18
+SubjectUserName: DC01$
+SubjectDomainName: DC01$
+SubjectLogonId: 0x336bdd
+PrivilegeList: SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege
+			SeEnableDelegationPrivilege
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4624
+Description: An account was successfully logged on.
+Time Generated: 2024-06-11 19:46:27
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-0-0
+SubjectUserName: -
+SubjectDomainName: -
+SubjectLogonId: 0x0
+TargetUserSid: S-1-5-21-951999864-159825705-4220214313-500
+TargetUserName: Администратор@OFFICE
+TargetDomainName: OFFICE
+TargetLogonId: 0x29c085
+LogonType: NtLmSsp 
+LogonProcessName: NTLM
+AuthenticationPackageName: 
+WorkstationName: 
+LogonGuid: {00000000-0000-0000-0000-000000000000}
+TransmittedServices: -
+LmPackageName: NTLM V2
+KeyLength: 128
+ProcessId: 0x0
+ProcessName: -
+IpAddress: 172.16.0.5
+IpPort: 49198
+ImpersonationLevel: %%1833
+RestrictedAdminMode: -
+TargetOutboundUserName: -
+TargetOutboundDomainName: -
+VirtualAccount: %%1843
+TargetLinkedLogonId: 0x0
+ElevatedToken: %%1842
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4672
+Description: Special privileges assigned to new logon.
+Time Generated: 2024-06-11 19:46:27
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-5-21-951999864-159825705-4220214313-500
+SubjectUserName: Администратор@OFFICE
+SubjectDomainName: OFFICE
+SubjectLogonId: 0x29c085
+PrivilegeList: 
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4624
+Description: An account was successfully logged on.
+Time Generated: 2024-06-11 19:46:10
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-0-0
+SubjectUserName: -
+SubjectDomainName: -
+SubjectLogonId: 0x0
+TargetUserSid: S-1-5-18
+TargetUserName: DC01$
+TargetDomainName: DC01$
+TargetLogonId: 0x264cd6
+LogonType: 3
+LogonProcessName: Kerberos
+AuthenticationPackageName: Kerberos
+WorkstationName: 
+LogonGuid: 
+TransmittedServices: {0392D0FD-9C5C-5098-49D9-52405435C300}
+LmPackageName: -
+KeyLength: -
+ProcessId: 0
+ProcessName: 0x0
+IpAddress: -
+IpPort: ::1
+ImpersonationLevel: 49755
+RestrictedAdminMode: %%1833
+TargetOutboundUserName: -
+TargetOutboundDomainName: -
+VirtualAccount: -
+TargetLinkedLogonId: %%1843
+ElevatedToken: 0x0
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4672
+Description: Special privileges assigned to new logon.
+Time Generated: 2024-06-11 19:46:10
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-5-18
+SubjectUserName: DC01$
+SubjectDomainName: DC01$
+SubjectLogonId: 0x264cd6
+PrivilegeList: SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege
+			SeEnableDelegationPrivilege
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4624
+Description: An account was successfully logged on.
+Time Generated: 2024-06-11 19:45:36
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-0-0
+SubjectUserName: -
+SubjectDomainName: -
+SubjectLogonId: 0x0
+TargetUserSid: S-1-5-21-951999864-159825705-4220214313-1103
+TargetUserName: dcom
+TargetDomainName: dcom
+TargetLogonId: 0x216727
+LogonType: 3
+LogonProcessName: NtLmSsp 
+AuthenticationPackageName: NTLM
+WorkstationName: 
+LogonGuid: 
+TransmittedServices: {00000000-0000-0000-0000-000000000000}
+LmPackageName: -
+KeyLength: NTLM V2
+ProcessId: 128
+ProcessName: 0x0
+IpAddress: -
+IpPort: 172.16.0.5
+ImpersonationLevel: 55854
+RestrictedAdminMode: %%1833
+TargetOutboundUserName: -
+TargetOutboundDomainName: -
+VirtualAccount: -
+TargetLinkedLogonId: %%1843
+ElevatedToken: 0x0
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4672
+Description: Special privileges assigned to new logon.
+Time Generated: 2024-06-11 19:45:36
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-5-21-951999864-159825705-4220214313-1103
+SubjectUserName: dcom
+SubjectDomainName: dcom
+SubjectLogonId: 0x216727
+PrivilegeList: SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege
+			SeEnableDelegationPrivilege
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4624
+Description: An account was successfully logged on.
+Time Generated: 2024-06-11 19:45:19
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-0-0
+SubjectUserName: -
+SubjectDomainName: -
+SubjectLogonId: 0x0
+TargetUserSid: S-1-5-18
+TargetUserName: DC01$
+TargetDomainName: DC01$
+TargetLogonId: 0x1c5911
+LogonType: 3
+LogonProcessName: Kerberos
+AuthenticationPackageName: Kerberos
+WorkstationName: 
+LogonGuid: 
+TransmittedServices: {38771484-4120-995A-2EB0-77D963C17FD5}
+LmPackageName: -
+KeyLength: -
+ProcessId: 0
+ProcessName: 0x0
+IpAddress: -
+IpPort: fe80::e9a0:667c:84a3:6f47
+ImpersonationLevel: 49753
+RestrictedAdminMode: %%1840
+TargetOutboundUserName: -
+TargetOutboundDomainName: -
+VirtualAccount: -
+TargetLinkedLogonId: %%1843
+ElevatedToken: 0x0
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4672
+Description: Special privileges assigned to new logon.
+Time Generated: 2024-06-11 19:45:19
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-5-18
+SubjectUserName: DC01$
+SubjectDomainName: DC01$
+SubjectLogonId: 0x1c5911
+PrivilegeList: SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege
+			SeEnableDelegationPrivilege
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4624
+Description: An account was successfully logged on.
+Time Generated: 2024-06-11 19:45:19
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-0-0
+SubjectUserName: -
+SubjectDomainName: -
+SubjectLogonId: 0x0
+TargetUserSid: S-1-5-18
+TargetUserName: DC01$
+TargetDomainName: DC01$
+TargetLogonId: 0x1c4d2d
+LogonType: 3
+LogonProcessName: Kerberos
+AuthenticationPackageName: Kerberos
+WorkstationName: 
+LogonGuid: 
+TransmittedServices: {38771484-4120-995A-2EB0-77D963C17FD5}
+LmPackageName: -
+KeyLength: -
+ProcessId: 0
+ProcessName: 0x0
+IpAddress: -
+IpPort: 172.16.0.3
+ImpersonationLevel: 49752
+RestrictedAdminMode: %%1833
+TargetOutboundUserName: -
+TargetOutboundDomainName: -
+VirtualAccount: -
+TargetLinkedLogonId: %%1843
+ElevatedToken: 0x0
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4672
+Description: Special privileges assigned to new logon.
+Time Generated: 2024-06-11 19:45:19
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-5-18
+SubjectUserName: DC01$
+SubjectDomainName: DC01$
+SubjectLogonId: 0x1c4d2d
+PrivilegeList: SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege
+			SeEnableDelegationPrivilege
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4624
+Description: An account was successfully logged on.
+Time Generated: 2024-06-11 19:45:19
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-0-0
+SubjectUserName: -
+SubjectDomainName: -
+SubjectLogonId: 0x0
+TargetUserSid: S-1-5-18
+TargetUserName: DC01$
+TargetDomainName: DC01$
+TargetLogonId: 0x1c4c6a
+LogonType: 3
+LogonProcessName: Kerberos
+AuthenticationPackageName: Kerberos
+WorkstationName: 
+LogonGuid: 
+TransmittedServices: {4D1692A3-E22B-D612-1043-DC1C0FCE5D9C}
+LmPackageName: -
+KeyLength: -
+ProcessId: 0
+ProcessName: 0x0
+IpAddress: -
+IpPort: ::1
+ImpersonationLevel: 0
+RestrictedAdminMode: %%1833
+TargetOutboundUserName: -
+TargetOutboundDomainName: -
+VirtualAccount: -
+TargetLinkedLogonId: %%1843
+ElevatedToken: 0x0
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4672
+Description: Special privileges assigned to new logon.
+Time Generated: 2024-06-11 19:45:19
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-5-18
+SubjectUserName: DC01$
+SubjectDomainName: DC01$
+SubjectLogonId: 0x1c4c6a
+PrivilegeList: SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege
+			SeEnableDelegationPrivilege
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4624
+Description: An account was successfully logged on.
+Time Generated: 2024-06-11 19:45:19
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-0-0
+SubjectUserName: -
+SubjectDomainName: -
+SubjectLogonId: 0x0
+TargetUserSid: S-1-5-18
+TargetUserName: DC01$
+TargetDomainName: DC01$
+TargetLogonId: 0x1c4ade
+LogonType: 3
+LogonProcessName: Kerberos
+AuthenticationPackageName: Kerberos
+WorkstationName: 
+LogonGuid: 
+TransmittedServices: {38771484-4120-995A-2EB0-77D963C17FD5}
+LmPackageName: -
+KeyLength: -
+ProcessId: 0
+ProcessName: 0x0
+IpAddress: -
+IpPort: fe80::e9a0:667c:84a3:6f47
+ImpersonationLevel: 49751
+RestrictedAdminMode: %%1833
+TargetOutboundUserName: -
+TargetOutboundDomainName: -
+VirtualAccount: -
+TargetLinkedLogonId: %%1843
+ElevatedToken: 0x0
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4672
+Description: Special privileges assigned to new logon.
+Time Generated: 2024-06-11 19:45:19
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-5-18
+SubjectUserName: DC01$
+SubjectDomainName: DC01$
+SubjectLogonId: 0x1c4ade
+PrivilegeList: SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege
+			SeEnableDelegationPrivilege
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4624
+Description: An account was successfully logged on.
+Time Generated: 2024-06-11 19:45:12
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-0-0
+SubjectUserName: -
+SubjectDomainName: -
+SubjectLogonId: 0x0
+TargetUserSid: S-1-5-18
+TargetUserName: DC01$
+TargetDomainName: DC01$
+TargetLogonId: 0x194218
+LogonType: 3
+LogonProcessName: Kerberos
+AuthenticationPackageName: Kerberos
+WorkstationName: 
+LogonGuid: 
+TransmittedServices: {0392D0FD-9C5C-5098-49D9-52405435C300}
+LmPackageName: -
+KeyLength: -
+ProcessId: 0
+ProcessName: 0x0
+IpAddress: -
+IpPort: fe80::e9a0:667c:84a3:6f47
+ImpersonationLevel: 49750
+RestrictedAdminMode: %%1833
+TargetOutboundUserName: -
+TargetOutboundDomainName: -
+VirtualAccount: -
+TargetLinkedLogonId: %%1843
+ElevatedToken: 0x0
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4672
+Description: Special privileges assigned to new logon.
+Time Generated: 2024-06-11 19:45:12
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-5-18
+SubjectUserName: DC01$
+SubjectDomainName: DC01$
+SubjectLogonId: 0x194218
+PrivilegeList: SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege
+			SeEnableDelegationPrivilege
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4624
+Description: An account was successfully logged on.
+Time Generated: 2024-06-11 19:45:12
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-0-0
+SubjectUserName: -
+SubjectDomainName: -
+SubjectLogonId: 0x0
+TargetUserSid: S-1-5-18
+TargetUserName: DC01$
+TargetDomainName: DC01$
+TargetLogonId: 0x194036
+LogonType: 3
+LogonProcessName: Kerberos
+AuthenticationPackageName: Kerberos
+WorkstationName: 
+LogonGuid: 
+TransmittedServices: {0392D0FD-9C5C-5098-49D9-52405435C300}
+LmPackageName: -
+KeyLength: -
+ProcessId: 0
+ProcessName: 0x0
+IpAddress: -
+IpPort: fe80::e9a0:667c:84a3:6f47
+ImpersonationLevel: 49749
+RestrictedAdminMode: %%1833
+TargetOutboundUserName: -
+TargetOutboundDomainName: -
+VirtualAccount: -
+TargetLinkedLogonId: %%1843
+ElevatedToken: 0x0
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4672
+Description: Special privileges assigned to new logon.
+Time Generated: 2024-06-11 19:45:12
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-5-18
+SubjectUserName: DC01$
+SubjectDomainName: DC01$
+SubjectLogonId: 0x194036
+PrivilegeList: SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege
+			SeEnableDelegationPrivilege
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4624
+Description: An account was successfully logged on.
+Time Generated: 2024-06-11 19:45:11
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-0-0
+SubjectUserName: -
+SubjectDomainName: -
+SubjectLogonId: 0x0
+TargetUserSid: S-1-5-18
+TargetUserName: DC01$
+TargetDomainName: DC01$
+TargetLogonId: 0x18fbb4
+LogonType: 3
+LogonProcessName: Kerberos
+AuthenticationPackageName: Kerberos
+WorkstationName: 
+LogonGuid: 
+TransmittedServices: {0392D0FD-9C5C-5098-49D9-52405435C300}
+LmPackageName: -
+KeyLength: -
+ProcessId: 0
+ProcessName: 0x0
+IpAddress: -
+IpPort: ::1
+ImpersonationLevel: 49747
+RestrictedAdminMode: %%1833
+TargetOutboundUserName: -
+TargetOutboundDomainName: -
+VirtualAccount: -
+TargetLinkedLogonId: %%1843
+ElevatedToken: 0x0
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4672
+Description: Special privileges assigned to new logon.
+Time Generated: 2024-06-11 19:45:11
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-5-18
+SubjectUserName: DC01$
+SubjectDomainName: DC01$
+SubjectLogonId: 0x18fbb4
+PrivilegeList: SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege
+			SeEnableDelegationPrivilege
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4672
+Description: Special privileges assigned to new logon.
+Time Generated: 2024-06-11 19:44:38
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-5-18
+SubjectUserName: СИСТЕМА@NT AUTHORITY
+SubjectDomainName: NT AUTHORITY
+SubjectLogonId: 0x3e7
+PrivilegeList: 
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4624
+Description: An account was successfully logged on.
+Time Generated: 2024-06-11 19:44:38
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-5-18
+SubjectUserName: DC01$
+SubjectDomainName: DC01$
+SubjectLogonId: 0x3e7
+TargetUserSid: S-1-5-18
+TargetUserName: СИСТЕМА@NT AUTHORITY
+TargetDomainName: NT AUTHORITY
+TargetLogonId: 0x3e7
+LogonType: Advapi  
+LogonProcessName: Negotiate
+AuthenticationPackageName: 
+WorkstationName: 
+LogonGuid: {00000000-0000-0000-0000-000000000000}
+TransmittedServices: -
+LmPackageName: -
+KeyLength: 0
+ProcessId: 0x2e4
+ProcessName: C:\Windows\System32\services.exe
+IpAddress: -
+IpPort: -
+ImpersonationLevel: %%1833
+RestrictedAdminMode: -
+TargetOutboundUserName: -
+TargetOutboundDomainName: -
+VirtualAccount: %%1843
+TargetLinkedLogonId: 0x0
+ElevatedToken: %%1842
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4624
+Description: An account was successfully logged on.
+Time Generated: 2024-06-11 19:44:37
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-0-0
+SubjectUserName: -
+SubjectDomainName: -
+SubjectLogonId: 0x0
+TargetUserSid: S-1-5-21-951999864-159825705-4220214313-1103
+TargetUserName: dcom
+TargetDomainName: dcom
+TargetLogonId: 0x94700
+LogonType: 3
+LogonProcessName: NtLmSsp 
+AuthenticationPackageName: NTLM
+WorkstationName: 
+LogonGuid: 
+TransmittedServices: {00000000-0000-0000-0000-000000000000}
+LmPackageName: -
+KeyLength: NTLM V2
+ProcessId: 128
+ProcessName: 0x0
+IpAddress: -
+IpPort: 172.16.0.5
+ImpersonationLevel: 39094
+RestrictedAdminMode: %%1833
+TargetOutboundUserName: -
+TargetOutboundDomainName: -
+VirtualAccount: -
+TargetLinkedLogonId: %%1843
+ElevatedToken: 0x0
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4672
+Description: Special privileges assigned to new logon.
+Time Generated: 2024-06-11 19:44:37
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-5-21-951999864-159825705-4220214313-1103
+SubjectUserName: dcom
+SubjectDomainName: dcom
+SubjectLogonId: 0x94700
+PrivilegeList: SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege
+			SeEnableDelegationPrivilege
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4624
+Description: An account was successfully logged on.
+Time Generated: 2024-06-11 19:44:32
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-0-0
+SubjectUserName: -
+SubjectDomainName: -
+SubjectLogonId: 0x0
+TargetUserSid: S-1-5-18
+TargetUserName: DC01$
+TargetDomainName: DC01$
+TargetLogonId: 0x8d080
+LogonType: 3
+LogonProcessName: Kerberos
+AuthenticationPackageName: Kerberos
+WorkstationName: 
+LogonGuid: 
+TransmittedServices: {1ABA9359-1D80-A800-423D-6800BB92E16F}
+LmPackageName: -
+KeyLength: -
+ProcessId: 0
+ProcessName: 0x0
+IpAddress: -
+IpPort: fe80::e9a0:667c:84a3:6f47
+ImpersonationLevel: 49741
+RestrictedAdminMode: %%1840
+TargetOutboundUserName: -
+TargetOutboundDomainName: -
+VirtualAccount: -
+TargetLinkedLogonId: %%1843
+ElevatedToken: 0x0
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4672
+Description: Special privileges assigned to new logon.
+Time Generated: 2024-06-11 19:44:32
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-5-18
+SubjectUserName: DC01$
+SubjectDomainName: DC01$
+SubjectLogonId: 0x8d080
+PrivilegeList: SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege
+			SeEnableDelegationPrivilege
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4769
+Description: A Kerberos service ticket (TGS) was requested.
+Time Generated: 2024-06-11 19:44:32
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+TargetUserName: DC01$@OFFICE.PWN
+TargetDomainName: OFFICE.PWN
+ServiceName: OFFICE.PWN
+ServiceName: DC01$
+ServiceSid: S-1-5-21-951999864-159825705-4220214313-1000
+TicketOptions: 0x40810000
+TicketEncryptionType: 0x12
+IpAddress: ::1
+IpPort: 0
+Status: 0x0
+LogonGuid: {E3650357-0AE9-2BB8-B9E4-58A225C22CB6}
+TransmittedServices: -
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4624
+Description: An account was successfully logged on.
+Time Generated: 2024-06-11 19:44:12
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-0-0
+SubjectUserName: -
+SubjectDomainName: -
+SubjectLogonId: 0x0
+TargetUserSid: S-1-5-18
+TargetUserName: DC01$
+TargetDomainName: DC01$
+TargetLogonId: 0x8cc24
+LogonType: 3
+LogonProcessName: Kerberos
+AuthenticationPackageName: Kerberos
+WorkstationName: 
+LogonGuid: 
+TransmittedServices: {0392D0FD-9C5C-5098-49D9-52405435C300}
+LmPackageName: -
+KeyLength: -
+ProcessId: 0
+ProcessName: 0x0
+IpAddress: -
+IpPort: ::1
+ImpersonationLevel: 49740
+RestrictedAdminMode: %%1833
+TargetOutboundUserName: -
+TargetOutboundDomainName: -
+VirtualAccount: -
+TargetLinkedLogonId: %%1843
+ElevatedToken: 0x0
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4672
+Description: Special privileges assigned to new logon.
+Time Generated: 2024-06-11 19:44:12
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-5-18
+SubjectUserName: DC01$
+SubjectDomainName: DC01$
+SubjectLogonId: 0x8cc24
+PrivilegeList: SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege
+			SeEnableDelegationPrivilege
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4624
+Description: An account was successfully logged on.
+Time Generated: 2024-06-11 19:43:27
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-0-0
+SubjectUserName: -
+SubjectDomainName: -
+SubjectLogonId: 0x0
+TargetUserSid: S-1-5-18
+TargetUserName: DC01$
+TargetDomainName: DC01$
+TargetLogonId: 0x7dfff
+LogonType: 3
+LogonProcessName: Kerberos
+AuthenticationPackageName: Kerberos
+WorkstationName: 
+LogonGuid: 
+TransmittedServices: {0392D0FD-9C5C-5098-49D9-52405435C300}
+LmPackageName: -
+KeyLength: -
+ProcessId: 0
+ProcessName: 0x0
+IpAddress: -
+IpPort: fe80::e9a0:667c:84a3:6f47
+ImpersonationLevel: 49738
+RestrictedAdminMode: %%1833
+TargetOutboundUserName: -
+TargetOutboundDomainName: -
+VirtualAccount: -
+TargetLinkedLogonId: %%1843
+ElevatedToken: 0x0
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4672
+Description: Special privileges assigned to new logon.
+Time Generated: 2024-06-11 19:43:27
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-5-18
+SubjectUserName: DC01$
+SubjectDomainName: DC01$
+SubjectLogonId: 0x7dfff
+PrivilegeList: SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege
+			SeEnableDelegationPrivilege
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4624
+Description: An account was successfully logged on.
+Time Generated: 2024-06-11 19:43:14
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-0-0
+SubjectUserName: -
+SubjectDomainName: -
+SubjectLogonId: 0x0
+TargetUserSid: S-1-5-18
+TargetUserName: DC01$
+TargetDomainName: DC01$
+TargetLogonId: 0x6eb95
+LogonType: 3
+LogonProcessName: Kerberos
+AuthenticationPackageName: Kerberos
+WorkstationName: 
+LogonGuid: 
+TransmittedServices: {0392D0FD-9C5C-5098-49D9-52405435C300}
+LmPackageName: -
+KeyLength: -
+ProcessId: 0
+ProcessName: 0x0
+IpAddress: -
+IpPort: ::1
+ImpersonationLevel: 49736
+RestrictedAdminMode: %%1833
+TargetOutboundUserName: -
+TargetOutboundDomainName: -
+VirtualAccount: -
+TargetLinkedLogonId: %%1843
+ElevatedToken: 0x0
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4672
+Description: Special privileges assigned to new logon.
+Time Generated: 2024-06-11 19:43:14
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-5-18
+SubjectUserName: DC01$
+SubjectDomainName: DC01$
+SubjectLogonId: 0x6eb95
+PrivilegeList: SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege
+			SeEnableDelegationPrivilege
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4624
+Description: An account was successfully logged on.
+Time Generated: 2024-06-11 19:42:40
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-0-0
+SubjectUserName: -
+SubjectDomainName: -
+SubjectLogonId: 0x0
+TargetUserSid: S-1-5-18
+TargetUserName: DC01$
+TargetDomainName: DC01$
+TargetLogonId: 0x60e55
+LogonType: 3
+LogonProcessName: Kerberos
+AuthenticationPackageName: Kerberos
+WorkstationName: 
+LogonGuid: 
+TransmittedServices: {8CEAC54E-46FF-E1AF-A782-84D9A85BC980}
+LmPackageName: -
+KeyLength: -
+ProcessId: 0
+ProcessName: 0x0
+IpAddress: -
+IpPort: -
+ImpersonationLevel: -
+RestrictedAdminMode: %%1840
+TargetOutboundUserName: -
+TargetOutboundDomainName: -
+VirtualAccount: -
+TargetLinkedLogonId: %%1843
+ElevatedToken: 0x0
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4672
+Description: Special privileges assigned to new logon.
+Time Generated: 2024-06-11 19:42:40
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-5-18
+SubjectUserName: DC01$
+SubjectDomainName: DC01$
+SubjectLogonId: 0x60e55
+PrivilegeList: SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege
+			SeEnableDelegationPrivilege
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4624
+Description: An account was successfully logged on.
+Time Generated: 2024-06-11 19:42:40
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-0-0
+SubjectUserName: -
+SubjectDomainName: -
+SubjectLogonId: 0x0
+TargetUserSid: S-1-5-18
+TargetUserName: DC01$
+TargetDomainName: DC01$
+TargetLogonId: 0x60aef
+LogonType: 3
+LogonProcessName: Kerberos
+AuthenticationPackageName: Kerberos
+WorkstationName: 
+LogonGuid: 
+TransmittedServices: {8CEAC54E-46FF-E1AF-A782-84D9A85BC980}
+LmPackageName: -
+KeyLength: -
+ProcessId: 0
+ProcessName: 0x0
+IpAddress: -
+IpPort: -
+ImpersonationLevel: -
+RestrictedAdminMode: %%1840
+TargetOutboundUserName: -
+TargetOutboundDomainName: -
+VirtualAccount: -
+TargetLinkedLogonId: %%1843
+ElevatedToken: 0x0
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4672
+Description: Special privileges assigned to new logon.
+Time Generated: 2024-06-11 19:42:40
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-5-18
+SubjectUserName: DC01$
+SubjectDomainName: DC01$
+SubjectLogonId: 0x60aef
+PrivilegeList: SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege
+			SeEnableDelegationPrivilege
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4624
+Description: An account was successfully logged on.
+Time Generated: 2024-06-11 19:48:38
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-0-0
+SubjectUserName: -
+SubjectDomainName: -
+SubjectLogonId: 0x0
+TargetUserSid: S-1-5-18
+TargetUserName: DC01$
+TargetDomainName: DC01$
+TargetLogonId: 0x40f4aa
+LogonType: 3
+LogonProcessName: Kerberos
+AuthenticationPackageName: Kerberos
+WorkstationName: 
+LogonGuid: 
+TransmittedServices: {38771484-4120-995A-2EB0-77D963C17FD5}
+LmPackageName: -
+KeyLength: -
+ProcessId: 0
+ProcessName: 0x0
+IpAddress: -
+IpPort: fe80::e9a0:667c:84a3:6f47
+ImpersonationLevel: 49761
+RestrictedAdminMode: %%1833
+TargetOutboundUserName: -
+TargetOutboundDomainName: -
+VirtualAccount: -
+TargetLinkedLogonId: %%1843
+ElevatedToken: 0x0
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4672
+Description: Special privileges assigned to new logon.
+Time Generated: 2024-06-11 19:48:38
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-5-18
+SubjectUserName: DC01$
+SubjectDomainName: DC01$
+SubjectLogonId: 0x40f4aa
+PrivilegeList: SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege
+			SeEnableDelegationPrivilege
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4672
+Description: Special privileges assigned to new logon.
+Time Generated: 2024-06-11 19:48:37
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-5-21-951999864-159825705-4220214313-1104
+SubjectUserName: васька@OFFICE
+SubjectDomainName: OFFICE
+SubjectLogonId: 0x40e4e5
+PrivilegeList: 
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4624
+Description: An account was successfully logged on.
+Time Generated: 2024-06-11 19:48:37
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-5-18
+SubjectUserName: DC01$
+SubjectDomainName: DC01$
+SubjectLogonId: 0x3e7
+TargetUserSid: S-1-5-21-951999864-159825705-4220214313-1104
+TargetUserName: васька@OFFICE
+TargetDomainName: OFFICE
+TargetLogonId: 0x40e5ab
+LogonType: User32 
+LogonProcessName: Negotiate
+AuthenticationPackageName: DC01
+WorkstationName: {00000000-0000-0000-0000-000000000000}
+LogonGuid: -
+TransmittedServices: -
+LmPackageName: 0
+KeyLength: 0x94
+ProcessId: C:\Windows\System32\svchost.exe
+ProcessName: 127.0.0.1
+IpAddress: 0
+IpPort: %%1833
+ImpersonationLevel: -
+RestrictedAdminMode: -
+TargetOutboundUserName: -
+TargetOutboundDomainName: %%1843
+VirtualAccount: 0x40e4e5
+TargetLinkedLogonId: %%1843
+ElevatedToken: 
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4624
+Description: An account was successfully logged on.
+Time Generated: 2024-06-11 19:48:37
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-5-18
+SubjectUserName: DC01$
+SubjectDomainName: DC01$
+SubjectLogonId: 0x3e7
+TargetUserSid: S-1-5-21-951999864-159825705-4220214313-1104
+TargetUserName: васька@OFFICE
+TargetDomainName: OFFICE
+TargetLogonId: 0x40e4e5
+LogonType: User32 
+LogonProcessName: Negotiate
+AuthenticationPackageName: DC01
+WorkstationName: {619E6237-6271-D62F-A8C2-A89B35EC7724}
+LogonGuid: -
+TransmittedServices: -
+LmPackageName: 0
+KeyLength: 0x94
+ProcessId: C:\Windows\System32\svchost.exe
+ProcessName: 127.0.0.1
+IpAddress: 0
+IpPort: %%1833
+ImpersonationLevel: -
+RestrictedAdminMode: -
+TargetOutboundUserName: -
+TargetOutboundDomainName: %%1843
+VirtualAccount: 0x40e5ab
+TargetLinkedLogonId: %%1842
+ElevatedToken: 
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4769
+Description: A Kerberos service ticket (TGS) was requested.
+Time Generated: 2024-06-11 19:48:37
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+TargetUserName: васька@@@OFFICE.PWN
+TargetDomainName: OFFICE.PWN
+ServiceName: OFFICE.PWN
+ServiceName: DC01$
+ServiceSid: S-1-5-21-951999864-159825705-4220214313-1000
+TicketOptions: 0x40810000
+TicketEncryptionType: 0x12
+IpAddress: ::1
+IpPort: 0
+Status: 0x0
+LogonGuid: {619E6237-6271-D62F-A8C2-A89B35EC7724}
+TransmittedServices: -
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4768
+Description: A Kerberos authentication ticket (TGT) was requested.
+Time Generated: 2024-06-11 19:48:37
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+TargetUserName: васька@OFFICE
+TargetDomainName: OFFICE
+TargetSid: S-1-5-21-951999864-159825705-4220214313-1104
+ServiceName: krbtgt
+ServiceSid: S-1-5-21-951999864-159825705-4220214313-502
+TicketOptions: 0x40810010
+Status: 0x0
+TicketEncryptionType: 0x12
+PreAuthType: 2
+IpAddress: ::1
+IpPort: 0
+CertIssuerName: 
+CertSerialNumber: 
+CertThumbprint: 
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4624
+Description: An account was successfully logged on.
+Time Generated: 2024-06-11 19:48:09
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-0-0
+SubjectUserName: -
+SubjectDomainName: -
+SubjectLogonId: 0x0
+TargetUserSid: S-1-5-18
+TargetUserName: DC01$
+TargetDomainName: DC01$
+TargetLogonId: 0x3d24e7
+LogonType: 3
+LogonProcessName: Kerberos
+AuthenticationPackageName: Kerberos
+WorkstationName: 
+LogonGuid: 
+TransmittedServices: {0392D0FD-9C5C-5098-49D9-52405435C300}
+LmPackageName: -
+KeyLength: -
+ProcessId: 0
+ProcessName: 0x0
+IpAddress: -
+IpPort: ::1
+ImpersonationLevel: 49758
+RestrictedAdminMode: %%1833
+TargetOutboundUserName: -
+TargetOutboundDomainName: -
+VirtualAccount: -
+TargetLinkedLogonId: %%1843
+ElevatedToken: 0x0
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4672
+Description: Special privileges assigned to new logon.
+Time Generated: 2024-06-11 19:48:09
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-5-18
+SubjectUserName: DC01$
+SubjectDomainName: DC01$
+SubjectLogonId: 0x3d24e7
+PrivilegeList: SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege
+			SeEnableDelegationPrivilege
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4624
+Description: An account was successfully logged on.
+Time Generated: 2024-06-11 19:47:37
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-0-0
+SubjectUserName: -
+SubjectDomainName: -
+SubjectLogonId: 0x0
+TargetUserSid: S-1-5-21-951999864-159825705-4220214313-500
+TargetUserName: Администратор@OFFICE
+TargetDomainName: OFFICE
+TargetLogonId: 0x36cd4f
+LogonType: NtLmSsp 
+LogonProcessName: NTLM
+AuthenticationPackageName: 
+WorkstationName: 
+LogonGuid: {00000000-0000-0000-0000-000000000000}
+TransmittedServices: -
+LmPackageName: NTLM V2
+KeyLength: 128
+ProcessId: 0x0
+ProcessName: -
+IpAddress: 172.16.0.5
+IpPort: 39700
+ImpersonationLevel: %%1833
+RestrictedAdminMode: -
+TargetOutboundUserName: -
+TargetOutboundDomainName: -
+VirtualAccount: %%1843
+TargetLinkedLogonId: 0x0
+ElevatedToken: %%1842
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4672
+Description: Special privileges assigned to new logon.
+Time Generated: 2024-06-11 19:47:37
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-5-21-951999864-159825705-4220214313-500
+SubjectUserName: Администратор@OFFICE
+SubjectDomainName: OFFICE
+SubjectLogonId: 0x36cd4f
+PrivilegeList: 
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4624
+Description: An account was successfully logged on.
+Time Generated: 2024-06-11 19:47:22
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-0-0
+SubjectUserName: -
+SubjectDomainName: -
+SubjectLogonId: 0x0
+TargetUserSid: S-1-5-21-951999864-159825705-4220214313-1103
+TargetUserName: dcom
+TargetDomainName: dcom
+TargetLogonId: 0x3477ae
+LogonType: 3
+LogonProcessName: Kerberos
+AuthenticationPackageName: Kerberos
+WorkstationName: 
+LogonGuid: 
+TransmittedServices: {E7D6B19D-3E05-8B6C-25F1-0C7C6A014EF0}
+LmPackageName: -
+KeyLength: -
+ProcessId: 0
+ProcessName: 0x0
+IpAddress: -
+IpPort: 172.16.0.4
+ImpersonationLevel: 61639
+RestrictedAdminMode: %%1833
+TargetOutboundUserName: -
+TargetOutboundDomainName: -
+VirtualAccount: -
+TargetLinkedLogonId: %%1843
+ElevatedToken: 0x0
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4672
+Description: Special privileges assigned to new logon.
+Time Generated: 2024-06-11 19:47:22
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-5-21-951999864-159825705-4220214313-1103
+SubjectUserName: dcom
+SubjectDomainName: dcom
+SubjectLogonId: 0x3477ae
+PrivilegeList: SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege
+			SeEnableDelegationPrivilege
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4624
+Description: An account was successfully logged on.
+Time Generated: 2024-06-11 19:47:22
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-0-0
+SubjectUserName: -
+SubjectDomainName: -
+SubjectLogonId: 0x0
+TargetUserSid: S-1-5-21-951999864-159825705-4220214313-1103
+TargetUserName: dcom
+TargetDomainName: dcom
+TargetLogonId: 0x34770d
+LogonType: 3
+LogonProcessName: Kerberos
+AuthenticationPackageName: Kerberos
+WorkstationName: 
+LogonGuid: 
+TransmittedServices: {E7D6B19D-3E05-8B6C-25F1-0C7C6A014EF0}
+LmPackageName: -
+KeyLength: -
+ProcessId: 0
+ProcessName: 0x0
+IpAddress: -
+IpPort: 172.16.0.4
+ImpersonationLevel: 61637
+RestrictedAdminMode: %%1833
+TargetOutboundUserName: -
+TargetOutboundDomainName: -
+VirtualAccount: -
+TargetLinkedLogonId: %%1843
+ElevatedToken: 0x0
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4672
+Description: Special privileges assigned to new logon.
+Time Generated: 2024-06-11 19:47:22
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-5-21-951999864-159825705-4220214313-1103
+SubjectUserName: dcom
+SubjectDomainName: dcom
+SubjectLogonId: 0x34770d
+PrivilegeList: SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege
+			SeEnableDelegationPrivilege
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4769
+Description: A Kerberos service ticket (TGS) was requested.
+Time Generated: 2024-06-11 19:47:22
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+TargetUserName: dcom@OFFICE.PWN
+TargetDomainName: OFFICE.PWN
+ServiceName: OFFICE.PWN
+ServiceName: DC01$
+ServiceSid: S-1-5-21-951999864-159825705-4220214313-1000
+TicketOptions: 0x40800000
+TicketEncryptionType: 0x12
+IpAddress: ::ffff:172.16.0.4
+IpPort: 61638
+Status: 0x0
+LogonGuid: {6753957F-4545-D801-355C-0DF31DB07ED9}
+TransmittedServices: -
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4624
+Description: An account was successfully logged on.
+Time Generated: 2024-06-11 19:47:22
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-0-0
+SubjectUserName: -
+SubjectDomainName: -
+SubjectLogonId: 0x0
+TargetUserSid: S-1-5-21-951999864-159825705-4220214313-1103
+TargetUserName: dcom
+TargetDomainName: dcom
+TargetLogonId: 0x347661
+LogonType: 3
+LogonProcessName: Kerberos
+AuthenticationPackageName: Kerberos
+WorkstationName: 
+LogonGuid: 
+TransmittedServices: {E7D6B19D-3E05-8B6C-25F1-0C7C6A014EF0}
+LmPackageName: -
+KeyLength: -
+ProcessId: 0
+ProcessName: 0x0
+IpAddress: -
+IpPort: 172.16.0.4
+ImpersonationLevel: 61633
+RestrictedAdminMode: %%1833
+TargetOutboundUserName: -
+TargetOutboundDomainName: -
+VirtualAccount: -
+TargetLinkedLogonId: %%1843
+ElevatedToken: 0x0
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4672
+Description: Special privileges assigned to new logon.
+Time Generated: 2024-06-11 19:47:22
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-5-21-951999864-159825705-4220214313-1103
+SubjectUserName: dcom
+SubjectDomainName: dcom
+SubjectLogonId: 0x347661
+PrivilegeList: SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege
+			SeEnableDelegationPrivilege
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4769
+Description: A Kerberos service ticket (TGS) was requested.
+Time Generated: 2024-06-11 19:47:22
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+TargetUserName: dcom@OFFICE.PWN
+TargetDomainName: OFFICE.PWN
+ServiceName: OFFICE.PWN
+ServiceName: DC01$
+ServiceSid: S-1-5-21-951999864-159825705-4220214313-1000
+TicketOptions: 0x40810000
+TicketEncryptionType: 0x12
+IpAddress: ::ffff:172.16.0.4
+IpPort: 61636
+Status: 0x0
+LogonGuid: {6753957F-4545-D801-355C-0DF31DB07ED9}
+TransmittedServices: -
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4768
+Description: A Kerberos authentication ticket (TGT) was requested.
+Time Generated: 2024-06-11 19:47:22
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+TargetUserName: dcom
+TargetDomainName: dcom
+TargetSid: OFFICE.PWN
+ServiceName: krbtgt
+ServiceSid: krbtgt
+TicketOptions: S-1-5-21-951999864-159825705-4220214313-502
+Status: 0x40810010
+TicketEncryptionType: 0x0
+PreAuthType: 0x12
+IpAddress: 2
+IpPort: ::ffff:172.16.0.4
+CertIssuerName: 61635
+CertSerialNumber: 
+CertThumbprint: 
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4768
+Description: A Kerberos authentication ticket (TGT) was requested.
+Time Generated: 2024-06-11 19:47:22
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+TargetUserName: dcom
+TargetDomainName: dcom
+TargetSid: OFFICE.PWN
+ServiceName: krbtgt
+ServiceSid: krbtgt
+TicketOptions: S-1-5-21-951999864-159825705-4220214313-502
+Status: 0x40810010
+TicketEncryptionType: 0x0
+PreAuthType: 0x12
+IpAddress: 2
+IpPort: ::ffff:172.16.0.4
+CertIssuerName: 61632
+CertSerialNumber: 
+CertThumbprint: 
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4769
+Description: A Kerberos service ticket (TGS) was requested.
+Time Generated: 2024-06-11 19:47:21
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+TargetUserName: dcom@OFFICE.PWN
+TargetDomainName: OFFICE.PWN
+ServiceName: OFFICE.PWN
+ServiceName: WIN11$
+ServiceSid: S-1-5-21-951999864-159825705-4220214313-1105
+TicketOptions: 0x40810000
+TicketEncryptionType: 0x12
+IpAddress: ::ffff:172.16.0.4
+IpPort: 61627
+Status: 0x0
+LogonGuid: {38BE4ECF-E535-6E32-4EB0-EE9669864283}
+TransmittedServices: -
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4768
+Description: A Kerberos authentication ticket (TGT) was requested.
+Time Generated: 2024-06-11 19:47:21
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+TargetUserName: dcom
+TargetDomainName: dcom
+TargetSid: OFFICE
+ServiceName: krbtgt
+ServiceSid: krbtgt
+TicketOptions: S-1-5-21-951999864-159825705-4220214313-502
+Status: 0x40810010
+TicketEncryptionType: 0x0
+PreAuthType: 0x12
+IpAddress: 2
+IpPort: ::ffff:172.16.0.4
+CertIssuerName: 61626
+CertSerialNumber: 
+CertThumbprint: 
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4624
+Description: An account was successfully logged on.
+Time Generated: 2024-06-11 19:47:09
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-0-0
+SubjectUserName: -
+SubjectDomainName: -
+SubjectLogonId: 0x0
+TargetUserSid: S-1-5-18
+TargetUserName: DC01$
+TargetDomainName: DC01$
+TargetLogonId: 0x336bdd
+LogonType: 3
+LogonProcessName: Kerberos
+AuthenticationPackageName: Kerberos
+WorkstationName: 
+LogonGuid: 
+TransmittedServices: {0392D0FD-9C5C-5098-49D9-52405435C300}
+LmPackageName: -
+KeyLength: -
+ProcessId: 0
+ProcessName: 0x0
+IpAddress: -
+IpPort: ::1
+ImpersonationLevel: 49757
+RestrictedAdminMode: %%1833
+TargetOutboundUserName: -
+TargetOutboundDomainName: -
+VirtualAccount: -
+TargetLinkedLogonId: %%1843
+ElevatedToken: 0x0
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4672
+Description: Special privileges assigned to new logon.
+Time Generated: 2024-06-11 19:47:09
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-5-18
+SubjectUserName: DC01$
+SubjectDomainName: DC01$
+SubjectLogonId: 0x336bdd
+PrivilegeList: SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege
+			SeEnableDelegationPrivilege
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4624
+Description: An account was successfully logged on.
+Time Generated: 2024-06-11 19:46:27
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-0-0
+SubjectUserName: -
+SubjectDomainName: -
+SubjectLogonId: 0x0
+TargetUserSid: S-1-5-21-951999864-159825705-4220214313-500
+TargetUserName: Администратор@OFFICE
+TargetDomainName: OFFICE
+TargetLogonId: 0x29c085
+LogonType: NtLmSsp 
+LogonProcessName: NTLM
+AuthenticationPackageName: 
+WorkstationName: 
+LogonGuid: {00000000-0000-0000-0000-000000000000}
+TransmittedServices: -
+LmPackageName: NTLM V2
+KeyLength: 128
+ProcessId: 0x0
+ProcessName: -
+IpAddress: 172.16.0.5
+IpPort: 49198
+ImpersonationLevel: %%1833
+RestrictedAdminMode: -
+TargetOutboundUserName: -
+TargetOutboundDomainName: -
+VirtualAccount: %%1843
+TargetLinkedLogonId: 0x0
+ElevatedToken: %%1842
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4672
+Description: Special privileges assigned to new logon.
+Time Generated: 2024-06-11 19:46:27
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-5-21-951999864-159825705-4220214313-500
+SubjectUserName: Администратор@OFFICE
+SubjectDomainName: OFFICE
+SubjectLogonId: 0x29c085
+PrivilegeList: 
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4624
+Description: An account was successfully logged on.
+Time Generated: 2024-06-11 19:46:10
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-0-0
+SubjectUserName: -
+SubjectDomainName: -
+SubjectLogonId: 0x0
+TargetUserSid: S-1-5-18
+TargetUserName: DC01$
+TargetDomainName: DC01$
+TargetLogonId: 0x264cd6
+LogonType: 3
+LogonProcessName: Kerberos
+AuthenticationPackageName: Kerberos
+WorkstationName: 
+LogonGuid: 
+TransmittedServices: {0392D0FD-9C5C-5098-49D9-52405435C300}
+LmPackageName: -
+KeyLength: -
+ProcessId: 0
+ProcessName: 0x0
+IpAddress: -
+IpPort: ::1
+ImpersonationLevel: 49755
+RestrictedAdminMode: %%1833
+TargetOutboundUserName: -
+TargetOutboundDomainName: -
+VirtualAccount: -
+TargetLinkedLogonId: %%1843
+ElevatedToken: 0x0
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4672
+Description: Special privileges assigned to new logon.
+Time Generated: 2024-06-11 19:46:10
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-5-18
+SubjectUserName: DC01$
+SubjectDomainName: DC01$
+SubjectLogonId: 0x264cd6
+PrivilegeList: SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege
+			SeEnableDelegationPrivilege
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4624
+Description: An account was successfully logged on.
+Time Generated: 2024-06-11 19:45:36
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-0-0
+SubjectUserName: -
+SubjectDomainName: -
+SubjectLogonId: 0x0
+TargetUserSid: S-1-5-21-951999864-159825705-4220214313-1103
+TargetUserName: dcom
+TargetDomainName: dcom
+TargetLogonId: 0x216727
+LogonType: 3
+LogonProcessName: NtLmSsp 
+AuthenticationPackageName: NTLM
+WorkstationName: 
+LogonGuid: 
+TransmittedServices: {00000000-0000-0000-0000-000000000000}
+LmPackageName: -
+KeyLength: NTLM V2
+ProcessId: 128
+ProcessName: 0x0
+IpAddress: -
+IpPort: 172.16.0.5
+ImpersonationLevel: 55854
+RestrictedAdminMode: %%1833
+TargetOutboundUserName: -
+TargetOutboundDomainName: -
+VirtualAccount: -
+TargetLinkedLogonId: %%1843
+ElevatedToken: 0x0
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4672
+Description: Special privileges assigned to new logon.
+Time Generated: 2024-06-11 19:45:36
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-5-21-951999864-159825705-4220214313-1103
+SubjectUserName: dcom
+SubjectDomainName: dcom
+SubjectLogonId: 0x216727
+PrivilegeList: SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege
+			SeEnableDelegationPrivilege
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4624
+Description: An account was successfully logged on.
+Time Generated: 2024-06-11 19:45:19
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-0-0
+SubjectUserName: -
+SubjectDomainName: -
+SubjectLogonId: 0x0
+TargetUserSid: S-1-5-18
+TargetUserName: DC01$
+TargetDomainName: DC01$
+TargetLogonId: 0x1c5911
+LogonType: 3
+LogonProcessName: Kerberos
+AuthenticationPackageName: Kerberos
+WorkstationName: 
+LogonGuid: 
+TransmittedServices: {38771484-4120-995A-2EB0-77D963C17FD5}
+LmPackageName: -
+KeyLength: -
+ProcessId: 0
+ProcessName: 0x0
+IpAddress: -
+IpPort: fe80::e9a0:667c:84a3:6f47
+ImpersonationLevel: 49753
+RestrictedAdminMode: %%1840
+TargetOutboundUserName: -
+TargetOutboundDomainName: -
+VirtualAccount: -
+TargetLinkedLogonId: %%1843
+ElevatedToken: 0x0
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4672
+Description: Special privileges assigned to new logon.
+Time Generated: 2024-06-11 19:45:19
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-5-18
+SubjectUserName: DC01$
+SubjectDomainName: DC01$
+SubjectLogonId: 0x1c5911
+PrivilegeList: SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege
+			SeEnableDelegationPrivilege
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4624
+Description: An account was successfully logged on.
+Time Generated: 2024-06-11 19:45:19
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-0-0
+SubjectUserName: -
+SubjectDomainName: -
+SubjectLogonId: 0x0
+TargetUserSid: S-1-5-18
+TargetUserName: DC01$
+TargetDomainName: DC01$
+TargetLogonId: 0x1c4d2d
+LogonType: 3
+LogonProcessName: Kerberos
+AuthenticationPackageName: Kerberos
+WorkstationName: 
+LogonGuid: 
+TransmittedServices: {38771484-4120-995A-2EB0-77D963C17FD5}
+LmPackageName: -
+KeyLength: -
+ProcessId: 0
+ProcessName: 0x0
+IpAddress: -
+IpPort: 172.16.0.3
+ImpersonationLevel: 49752
+RestrictedAdminMode: %%1833
+TargetOutboundUserName: -
+TargetOutboundDomainName: -
+VirtualAccount: -
+TargetLinkedLogonId: %%1843
+ElevatedToken: 0x0
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4672
+Description: Special privileges assigned to new logon.
+Time Generated: 2024-06-11 19:45:19
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-5-18
+SubjectUserName: DC01$
+SubjectDomainName: DC01$
+SubjectLogonId: 0x1c4d2d
+PrivilegeList: SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege
+			SeEnableDelegationPrivilege
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4624
+Description: An account was successfully logged on.
+Time Generated: 2024-06-11 19:45:19
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-0-0
+SubjectUserName: -
+SubjectDomainName: -
+SubjectLogonId: 0x0
+TargetUserSid: S-1-5-18
+TargetUserName: DC01$
+TargetDomainName: DC01$
+TargetLogonId: 0x1c4c6a
+LogonType: 3
+LogonProcessName: Kerberos
+AuthenticationPackageName: Kerberos
+WorkstationName: 
+LogonGuid: 
+TransmittedServices: {4D1692A3-E22B-D612-1043-DC1C0FCE5D9C}
+LmPackageName: -
+KeyLength: -
+ProcessId: 0
+ProcessName: 0x0
+IpAddress: -
+IpPort: ::1
+ImpersonationLevel: 0
+RestrictedAdminMode: %%1833
+TargetOutboundUserName: -
+TargetOutboundDomainName: -
+VirtualAccount: -
+TargetLinkedLogonId: %%1843
+ElevatedToken: 0x0
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4672
+Description: Special privileges assigned to new logon.
+Time Generated: 2024-06-11 19:45:19
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-5-18
+SubjectUserName: DC01$
+SubjectDomainName: DC01$
+SubjectLogonId: 0x1c4c6a
+PrivilegeList: SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege
+			SeEnableDelegationPrivilege
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4624
+Description: An account was successfully logged on.
+Time Generated: 2024-06-11 19:45:19
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-0-0
+SubjectUserName: -
+SubjectDomainName: -
+SubjectLogonId: 0x0
+TargetUserSid: S-1-5-18
+TargetUserName: DC01$
+TargetDomainName: DC01$
+TargetLogonId: 0x1c4ade
+LogonType: 3
+LogonProcessName: Kerberos
+AuthenticationPackageName: Kerberos
+WorkstationName: 
+LogonGuid: 
+TransmittedServices: {38771484-4120-995A-2EB0-77D963C17FD5}
+LmPackageName: -
+KeyLength: -
+ProcessId: 0
+ProcessName: 0x0
+IpAddress: -
+IpPort: fe80::e9a0:667c:84a3:6f47
+ImpersonationLevel: 49751
+RestrictedAdminMode: %%1833
+TargetOutboundUserName: -
+TargetOutboundDomainName: -
+VirtualAccount: -
+TargetLinkedLogonId: %%1843
+ElevatedToken: 0x0
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4672
+Description: Special privileges assigned to new logon.
+Time Generated: 2024-06-11 19:45:19
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-5-18
+SubjectUserName: DC01$
+SubjectDomainName: DC01$
+SubjectLogonId: 0x1c4ade
+PrivilegeList: SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege
+			SeEnableDelegationPrivilege
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4624
+Description: An account was successfully logged on.
+Time Generated: 2024-06-11 19:45:12
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-0-0
+SubjectUserName: -
+SubjectDomainName: -
+SubjectLogonId: 0x0
+TargetUserSid: S-1-5-18
+TargetUserName: DC01$
+TargetDomainName: DC01$
+TargetLogonId: 0x194218
+LogonType: 3
+LogonProcessName: Kerberos
+AuthenticationPackageName: Kerberos
+WorkstationName: 
+LogonGuid: 
+TransmittedServices: {0392D0FD-9C5C-5098-49D9-52405435C300}
+LmPackageName: -
+KeyLength: -
+ProcessId: 0
+ProcessName: 0x0
+IpAddress: -
+IpPort: fe80::e9a0:667c:84a3:6f47
+ImpersonationLevel: 49750
+RestrictedAdminMode: %%1833
+TargetOutboundUserName: -
+TargetOutboundDomainName: -
+VirtualAccount: -
+TargetLinkedLogonId: %%1843
+ElevatedToken: 0x0
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4672
+Description: Special privileges assigned to new logon.
+Time Generated: 2024-06-11 19:45:12
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-5-18
+SubjectUserName: DC01$
+SubjectDomainName: DC01$
+SubjectLogonId: 0x194218
+PrivilegeList: SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege
+			SeEnableDelegationPrivilege
+------------------
+------------------
+[NEW EVENT FOUND]
+EventID: 4624
+Description: An account was successfully logged on.
+Time Generated: 2024-06-11 19:45:12
+SourceName: Microsoft-Windows-Security-Auditing
+ComputerName: dc01.office.pwn
+UserSid: None
+SubjectUserSid: S-1-0-0
+SubjectUserName: -
+SubjectDomainName: -
+SubjectLogonId: 0x0
+TargetUserSid: S-1-5-18
+TargetUserName: DC01$
+TargetDomainName: DC01$
+TargetLogonId: 0x194036
+LogonType: 3
+LogonProcessName: Kerberos
+AuthenticationPackageName: Kerberos
+WorkstationName: 
+LogonGuid: 
+TransmittedServices: {0392D0FD-9C5C-5098-49D9-52405435C300}
+LmPackageName: -
+KeyLength: -
+ProcessId: 0
+ProcessName: 0x0
+IpAddress: -
+IpPort: fe80::e9a0:667c:84a3:6f47
+ImpersonationLevel: 49749
+RestrictedAdminMode: %%1833
+TargetOutboundUserName: -
+TargetOutboundDomainName: -
+VirtualAccount: -
+TargetLinkedLogonId: %%1843
+ElevatedToken: 0x0
+------------------
